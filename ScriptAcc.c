@@ -26,7 +26,7 @@ void* transfer( void *arg){
     pthread_t th[30];
     from.money = 100;
     to.money = 100;
-    printf( "Transferring 30 to account c2\n" );
+    printf( "Transferring 30 to account p2\n" );
     value = 30;
     for(i=0; i < 30; i++){
     pthread_create(&(th[i]),NULL,transfer,NULL);
